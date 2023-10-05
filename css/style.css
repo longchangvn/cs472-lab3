@@ -4,18 +4,21 @@
     margin: 0;
     font-size: 16px;
 }
-.validator{
+
+.validator {
     display: inline;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif, 'Open Sans', sans-serif;
     background-color: rgb(237, 240, 242);
-    color:rgba(0, 0, 0, 0.7)
+    color: rgba(0, 0, 0, 0.7)
 }
 
-h1{
+h1 {
     font-size: 2rem;
 }
+
 .header {
     padding: 17px;
     margin-bottom: 5px;
@@ -40,6 +43,7 @@ h1{
     width: 30px;
     height: auto;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 .left-header {
@@ -59,6 +63,7 @@ h1{
     text-align: right;
     display: inline;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .space {
@@ -134,15 +139,17 @@ button {
     cursor: pointer;
 }
 
-.btn-default{
+.btn-default {
     width: 100%;
 }
+
 label {
     color: gray;
     font-weight: normal;
 }
 
-.btnlogin, .black-btn {
+.btnlogin,
+.black-btn {
     color: white;
     background-color: black;
 }
@@ -177,24 +184,22 @@ label {
     padding-right: 10px;
 }
 
-.bold-label{
+.bold-label {
     font-weight: bold;
 }
 
-a{
-    color:  rgb(82, 182, 204) ;
+a {
+    color: rgb(82, 182, 204);
     font-weight: normal;
     text-decoration: none;
 }
 
-#submit-ticket{
-
-}
-.footer{
+.footer {
     background-color: rgb(201, 206, 209);
     padding: 15px;
 }
-.copy-right{
+
+.copy-right {
     text-align: right;
     color: grey;
     font-size: 0.8em;
